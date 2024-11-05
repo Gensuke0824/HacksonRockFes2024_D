@@ -1,0 +1,1836 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22635) 64bit Professional' Language: 'ja' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/Lightship_sample
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54228
+Successfully changed project path to: D:/UnityProject/Lightship_sample
+D:/UnityProject/Lightship_sample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8644]  Target information:
+
+Player connection [8644]  * "[IP] 172.23.208.1 [Port] 0 [Flags] 2 [Guid] 3695100792 [EditorId] 3695100792 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A2UOE99) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8644]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3695100792 [EditorId] 3695100792 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A2UOE99) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8644]  * "[IP] 192.168.2.105 [Port] 0 [Flags] 2 [Guid] 3695100792 [EditorId] 3695100792 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A2UOE99) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8644] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8644] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 16.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path D:/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/Lightship_sample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005516 seconds.
+- Loaded All Assemblies, in  0.425 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 356 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (446ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.970 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.866 seconds
+Domain Reload Profiling: 1836ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (686ms)
+		LoadAssemblies (487ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (866ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5345 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (1.1 MB). Loaded Objects now: 5787.
+Memory consumption went from 244.2 MB to 243.2 MB.
+Total: 4.826500 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.161400 ms MarkObjects: 3.547300 ms  DeleteObjects: 0.552600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162796.765532 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/FeatureLabelsTheme_Standard.prefab
+  artifactKey: Guid(bbb6e2de566d54482b49a7f9cad30390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/FeatureLabelsTheme_Standard.prefab using Guid(bbb6e2de566d54482b49a7f9cad30390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LinearFeatureBuilderAsync' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.Builders.Performance.LinearFeatures.LinearFeatureBuilderAsync:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Builders/Performance/LinearFeatures/LinearFeatureBuilderAsync.cs:73)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LabelBuilder' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.LabelBuilder`1<Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabel>:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/SampleAssets/Experimental/Labels/LabelBuilder.cs:103)
+Niantic.Lightship.Maps.SampleAssets.Experimental.Labels.TextMeshLabelBuilder:.ctor ()
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+ -> (artifact id: '785a0b5c88184ad8576ff1c2fa47ebf7') in 0.224215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 89.716862 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/FeatureLabelsLanguage.unity
+  artifactKey: Guid(9438397b381d04496ad2051739527f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/FeatureLabelsLanguage.unity using Guid(9438397b381d04496ad2051739527f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a082253148a820d2dbe36b792b33ed90') in 0.001388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.632945 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/MapLayers
+  artifactKey: Guid(ac1f7137afe044d8e90aac8830f6ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/MapLayers using Guid(ac1f7137afe044d8e90aac8830f6ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f286bcfd2e2362d2e1c56a0cd8acab73') in 0.001193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.420982 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/MapFeatures
+  artifactKey: Guid(17860f04fd52f4c6d8acf2550af77a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/MapFeatures using Guid(17860f04fd52f4c6d8acf2550af77a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c27f4dd36c39dd69e2aa3f84032d65f') in 0.001007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.812793 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Scripts
+  artifactKey: Guid(90fb3c1677b0a4307a9c5d7fea83377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Scripts using Guid(90fb3c1677b0a4307a9c5d7fea83377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4f0401761daab8e77f23a529dba6a54') in 0.000641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.853726 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common
+  artifactKey: Guid(14be46e041cbbbb4284ea56efe50b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common using Guid(14be46e041cbbbb4284ea56efe50b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d10e6312578f8cb56895f4daab13446') in 0.001024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.217256 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro
+  artifactKey: Guid(da46a7ca6a0692a4e806d73840e2035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro using Guid(da46a7ca6a0692a4e806d73840e2035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac9951d08e0d3c5f179fe928cb3d2716') in 0.001015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.868413 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources
+  artifactKey: Guid(b226757693249ee49917fce9cd31cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources using Guid(b226757693249ee49917fce9cd31cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f471b9a00326a196c54437db6e6f03e1') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.599209 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(601e14663b352274a98e388b3944f0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources/TMP Settings.asset using Guid(601e14663b352274a98e388b3944f0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c2a50ce65ce96d12c2a7f8189bc0adbd') in 0.030976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.235360 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(5c3728db1d1f5564789fdb6bcad8d8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/TextMesh Pro/Resources/Sprite Assets using Guid(5c3728db1d1f5564789fdb6bcad8d8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02c08785b2dd8ea524aa7e9d6a8ea158') in 0.001060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 191.970610 seconds.
+  path: Assets/Lightship/Maps
+  artifactKey: Guid(bb5187ea736962b4fb961b992c8a52ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lightship/Maps using Guid(bb5187ea736962b4fb961b992c8a52ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '266d3db6d3e5c25ee9665f7231349d4c') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.140067 seconds.
+  path: Assets/Lightship/Maps/Prefabs
+  artifactKey: Guid(f8e5f7ca52f34a140ac373b432b537b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lightship/Maps/Prefabs using Guid(f8e5f7ca52f34a140ac373b432b537b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d8799ae2acd90170310f40875d68f27') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068348 seconds.
+  path: Assets/Lightship/Maps/Prefabs/LightshipMapView.prefab
+  artifactKey: Guid(686a2e340f608e64cad79e1397848512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lightship/Maps/Prefabs/LightshipMapView.prefab using Guid(686a2e340f608e64cad79e1397848512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapManager' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapManager:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapManager.cs:55)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Set max log level for channel 'LightshipMapView' to 'Info'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object,object)
+Niantic.Platform.Debugging.LogService:SetMaxLogLevelForChannel (string,Niantic.Platform.Debugging.LogLevel)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:set_MaxLogLevel (Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:34)
+Niantic.Lightship.Maps.Utilities.ChannelLogger:.ctor (string,Niantic.Platform.Debugging.LogLevel) (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/Utilities/ChannelLogger.cs:46)
+Niantic.Lightship.Maps.LightshipMapView:.cctor () (at ./Library/PackageCache/com.niantic.lightship.maps@fb4247cae5/Runtime/Niantic.Lightship.Maps/LightshipMapView.cs:115)
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+ -> (artifact id: '2dd02e9be05e95dba6c652985dcef8a1') in 0.011557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 112.585505 seconds.
+  path: Assets/Lightship/Maps/Prefabs/LightshipMapView.prefab
+  artifactKey: Guid(686a2e340f608e64cad79e1397848512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lightship/Maps/Prefabs/LightshipMapView.prefab using Guid(686a2e340f608e64cad79e1397848512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47fe4397d733854131858b918861e92b') in 0.005748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+[V] <b><color=#90EE90>[Platform]</color></b> [Log] Added log stream 'Niantic.Platform.Debugging.Unity.UnityLogStream'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Niantic.Platform.Debugging.Unity.UnityLogStream:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string) (at Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs:36)
+Niantic.Platform.Debugging.LogService:LogToStreams (string,Niantic.Platform.Debugging.LogLevel,string)
+Niantic.Platform.Debugging.LogService:LogMessage (string,Niantic.Platform.Debugging.LogLevel,string,object)
+Niantic.Platform.Debugging.LogService:RegisterLogStream (Niantic.Platform.Debugging.ILogStream)
+Niantic.Lightship.Maps.Samples.Common.Editor.EditorLogInitializer:.cctor () (at Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/Common/Editor/EditorLogInitializer.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/Common/UnityLogging/UnityLogStream.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.269 seconds
+Domain Reload Profiling: 1832ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.1 MB). Loaded Objects now: 5792.
+Memory consumption went from 194.3 MB to 193.2 MB.
+Total: 5.547800 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.232900 ms MarkObjects: 3.849800 ms  DeleteObjects: 0.623800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.662873 seconds.
+  path: Assets/Lightship/Maps/Themes/Light_Unlit_Theme_URP.prefab
+  artifactKey: Guid(f019101559c3d70449621986285602ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lightship/Maps/Themes/Light_Unlit_Theme_URP.prefab using Guid(f019101559c3d70449621986285602ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71f44973f64b7af78019668c931b1d34') in 0.007164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.793606 seconds.
+  path: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/CustomMapLayersTheme_Standard.prefab
+  artifactKey: Guid(5049114f782164043bc7034ff8911a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/CustomMapLayersTheme_Standard.prefab using Guid(5049114f782164043bc7034ff8911a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4371003da5696dff72ba746826381468') in 0.001038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.353004 seconds.
+  path: Packages/com.niantic.lightship.maps
+  artifactKey: Guid(be652aad6abbd650ed375d799f6f6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.niantic.lightship.maps using Guid(be652aad6abbd650ed375d799f6f6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5e8c3a1bc6bb9f3d6fabf73ace3422a') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.076278 seconds.
+  path: Packages/com.niantic.lightship.maps/package.json
+  artifactKey: Guid(64255a28db85a4adabc5c54c8be94e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.niantic.lightship.maps/package.json using Guid(64255a28db85a4adabc5c54c8be94e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c2b2352b5177095990fd180c7af240f6') in 0.010905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.353779 seconds.
+  path: Packages/com.niantic.lightship.maps/SampleAssets
+  artifactKey: Guid(00f77ab7501d842bdad4a35f02e51c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.niantic.lightship.maps/SampleAssets using Guid(00f77ab7501d842bdad4a35f02e51c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7a3b5201c2c69186a97e8b5306e4595') in 0.000680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084072 seconds.
+  path: Packages/com.niantic.lightship.maps/SampleAssets/Niantic.Lightship.Maps.SampleAssets.asmdef
+  artifactKey: Guid(616a9df7195fa4065a0deb0482edf468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.niantic.lightship.maps/SampleAssets/Niantic.Lightship.Maps.SampleAssets.asmdef using Guid(616a9df7195fa4065a0deb0482edf468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd3b546b6236a728f842f601a3345901') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.212435 seconds.
+  path: Packages/com.niantic.lightship.maps/SampleAssets/Themes
+  artifactKey: Guid(2e8f5eaeeb28c4b938e438819e947c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.niantic.lightship.maps/SampleAssets/Themes using Guid(2e8f5eaeeb28c4b938e438819e947c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9737930afcf52c0522f4f9d500171926') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2135.631353 seconds.
+  path: Assets/Resources/Maps SDK
+  artifactKey: Guid(76b9e85669e8dcb4ab487a9bdc02873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps SDK using Guid(76b9e85669e8dcb4ab487a9bdc02873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '533a50872f36d863a6f13bb341597268') in 0.009639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.970669 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b471ed0c9a8365d8ba8dd6036731fd0') in 0.075930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d4839ec89ad74583c233e6cf7531988') in 0.002575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fcf2edc17007ff6fd0d1d575c3f4be3d') in 0.018523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e0c69e136a1daf70859ec10692babbc') in 0.002636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '037f8a577a7632513eb00d57c23d1d66') in 0.008973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

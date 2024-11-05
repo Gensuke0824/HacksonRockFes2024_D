@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/GameSample.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
