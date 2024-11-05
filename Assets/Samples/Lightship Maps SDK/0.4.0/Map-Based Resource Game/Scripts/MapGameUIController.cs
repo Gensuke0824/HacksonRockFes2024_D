@@ -61,10 +61,10 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private void Start()
         {
             _introScreen.SetActive(true);
-            _gamePlayScreen.SetActive(false);//
-            _buildMenu.SetActive(false);//ポイント表示に
+            _gamePlayScreen.SetActive(false);
+            _buildMenu.SetActive(false);
             _placeStructureScreen.SetActive(false);
-            _buildMenuButton.SetActive(true);//ポイント管理に転用？
+            _buildMenuButton.SetActive(true);
             _gameOverScreen.SetActive(false);
 
             MapGameState.Instance.OnStructureBuilt += OnStructurePlaced;
