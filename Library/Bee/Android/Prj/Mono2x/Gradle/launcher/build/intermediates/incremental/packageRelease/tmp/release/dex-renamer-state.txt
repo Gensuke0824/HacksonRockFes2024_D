@@ -1,4 +1,4 @@
-#Sun Nov 03 16:58:23 JST 2024
-base.0=D\:\\UnityProject\\Lightship_sample\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Tue Nov 05 22:09:05 JST 2024
+base.0=D\:\\UnityProject\\HacksonRockFes2024_D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

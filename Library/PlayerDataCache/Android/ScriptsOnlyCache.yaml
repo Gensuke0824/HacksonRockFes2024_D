@@ -275,161 +275,161 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17108}
+      Script: {instanceID: 17134}
     - Class: 114
-      Script: {instanceID: 17110}
+      Script: {instanceID: 17136}
     - Class: 114
-      Script: {instanceID: 17112}
+      Script: {instanceID: 17138}
     - Class: 114
-      Script: {instanceID: 17114}
+      Script: {instanceID: 17140}
     - Class: 114
-      Script: {instanceID: 17116}
+      Script: {instanceID: 17142}
     - Class: 114
-      Script: {instanceID: 17124}
+      Script: {instanceID: 17150}
     - Class: 114
-      Script: {instanceID: 17192}
+      Script: {instanceID: 17218}
     - Class: 114
-      Script: {instanceID: 17386}
+      Script: {instanceID: 17410}
     - Class: 114
-      Script: {instanceID: 17554}
+      Script: {instanceID: 17578}
     - Class: 114
-      Script: {instanceID: 17806}
+      Script: {instanceID: 17830}
     - Class: 114
-      Script: {instanceID: 17982}
+      Script: {instanceID: 18008}
     - Class: 114
-      Script: {instanceID: 18124}
+      Script: {instanceID: 18150}
     - Class: 114
-      Script: {instanceID: 18226}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18364}
+      Script: {instanceID: 18390}
     - Class: 114
-      Script: {instanceID: 18494}
+      Script: {instanceID: 18520}
     - Class: 114
-      Script: {instanceID: 18838}
+      Script: {instanceID: 18864}
     - Class: 114
-      Script: {instanceID: 19012}
+      Script: {instanceID: 19038}
     - Class: 114
-      Script: {instanceID: 19122}
+      Script: {instanceID: 19148}
     - Class: 114
-      Script: {instanceID: 19170}
+      Script: {instanceID: 19196}
     - Class: 114
-      Script: {instanceID: 19232}
+      Script: {instanceID: 19258}
     - Class: 114
-      Script: {instanceID: 19348}
+      Script: {instanceID: 19374}
     - Class: 114
-      Script: {instanceID: 19534}
+      Script: {instanceID: 19560}
     - Class: 114
-      Script: {instanceID: 19780}
+      Script: {instanceID: 19806}
     - Class: 114
-      Script: {instanceID: 19854}
+      Script: {instanceID: 19880}
     - Class: 114
-      Script: {instanceID: 19888}
+      Script: {instanceID: 19914}
     - Class: 114
-      Script: {instanceID: 20026}
+      Script: {instanceID: 20052}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20230}
     - Class: 114
-      Script: {instanceID: 20260}
+      Script: {instanceID: 20286}
     - Class: 114
-      Script: {instanceID: 20322}
+      Script: {instanceID: 20348}
     - Class: 114
-      Script: {instanceID: 20352}
+      Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 20428}
+      Script: {instanceID: 20454}
     - Class: 114
-      Script: {instanceID: 20514}
+      Script: {instanceID: 20540}
     - Class: 114
-      Script: {instanceID: 20892}
+      Script: {instanceID: 20918}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21074}
     - Class: 114
-      Script: {instanceID: 21260}
+      Script: {instanceID: 21286}
     - Class: 114
-      Script: {instanceID: 21516}
+      Script: {instanceID: 21542}
     - Class: 114
-      Script: {instanceID: 21650}
+      Script: {instanceID: 21676}
     - Class: 114
-      Script: {instanceID: 21658}
+      Script: {instanceID: 21684}
     - Class: 114
-      Script: {instanceID: 21842}
-    - Class: 114
-      Script: {instanceID: 22502}
+      Script: {instanceID: 21868}
     - Class: 114
       Script: {instanceID: 22528}
     - Class: 114
-      Script: {instanceID: 22610}
+      Script: {instanceID: 22554}
     - Class: 114
-      Script: {instanceID: 22630}
+      Script: {instanceID: 22636}
     - Class: 114
-      Script: {instanceID: 22680}
+      Script: {instanceID: 22656}
     - Class: 114
-      Script: {instanceID: 22726}
-    - Class: 114
-      Script: {instanceID: 22730}
+      Script: {instanceID: 22706}
     - Class: 114
       Script: {instanceID: 22752}
     - Class: 114
-      Script: {instanceID: 22830}
+      Script: {instanceID: 22756}
     - Class: 114
-      Script: {instanceID: 22842}
+      Script: {instanceID: 22778}
     - Class: 114
-      Script: {instanceID: 22854}
+      Script: {instanceID: 22856}
     - Class: 114
-      Script: {instanceID: 22936}
+      Script: {instanceID: 22868}
     - Class: 114
-      Script: {instanceID: 23128}
+      Script: {instanceID: 22880}
     - Class: 114
-      Script: {instanceID: 23132}
+      Script: {instanceID: 22962}
     - Class: 114
-      Script: {instanceID: 23156}
+      Script: {instanceID: 23154}
     - Class: 114
-      Script: {instanceID: 23576}
+      Script: {instanceID: 23158}
     - Class: 114
-      Script: {instanceID: 23926}
+      Script: {instanceID: 23182}
     - Class: 114
-      Script: {instanceID: 23956}
+      Script: {instanceID: 23602}
     - Class: 114
-      Script: {instanceID: 23996}
+      Script: {instanceID: 23952}
     - Class: 114
-      Script: {instanceID: 24012}
+      Script: {instanceID: 23982}
     - Class: 114
-      Script: {instanceID: 24108}
+      Script: {instanceID: 24022}
     - Class: 114
-      Script: {instanceID: 24114}
+      Script: {instanceID: 24038}
     - Class: 114
-      Script: {instanceID: 24276}
+      Script: {instanceID: 24134}
     - Class: 114
-      Script: {instanceID: 24330}
+      Script: {instanceID: 24140}
     - Class: 114
-      Script: {instanceID: 24404}
+      Script: {instanceID: 24302}
     - Class: 114
-      Script: {instanceID: 24504}
+      Script: {instanceID: 24356}
     - Class: 114
-      Script: {instanceID: 24522}
+      Script: {instanceID: 24430}
     - Class: 114
-      Script: {instanceID: 24678}
+      Script: {instanceID: 24530}
     - Class: 114
-      Script: {instanceID: 24888}
+      Script: {instanceID: 24548}
     - Class: 114
-      Script: {instanceID: 25056}
+      Script: {instanceID: 24704}
     - Class: 114
-      Script: {instanceID: 25110}
+      Script: {instanceID: 24916}
     - Class: 114
-      Script: {instanceID: 25150}
+      Script: {instanceID: 25084}
     - Class: 114
-      Script: {instanceID: 25322}
+      Script: {instanceID: 25140}
     - Class: 114
-      Script: {instanceID: 25604}
+      Script: {instanceID: 25180}
     - Class: 114
-      Script: {instanceID: 26056}
+      Script: {instanceID: 25352}
     - Class: 114
-      Script: {instanceID: 26584}
+      Script: {instanceID: 25634}
     - Class: 114
-      Script: {instanceID: 26632}
+      Script: {instanceID: 26084}
     - Class: 114
-      Script: {instanceID: 26762}
+      Script: {instanceID: 26612}
     - Class: 114
-      Script: {instanceID: 26992}
+      Script: {instanceID: 26660}
+    - Class: 114
+      Script: {instanceID: 26790}
+    - Class: 114
+      Script: {instanceID: 27018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1773,6 +1773,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerRow
   - hash:
       serializedVersion: 2
+      Hash: 0e4a0258dcd5cabe8358fddf0d9e987a
+    assemblyName: Niantic.Lightship.Maps.Samples.CustomMapLayers
+    namespaceName: Niantic.Platform.Debugging.Unity
+    className: UnityLogForwarder
+  - hash:
+      serializedVersion: 2
       Hash: 47247e29ff0f727264f83a7f754b229c
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
@@ -2055,12 +2061,6 @@ ScriptsOnlyBuild:
     className: Volume
   - hash:
       serializedVersion: 2
-      Hash: 0e4a0258dcd5cabe8358fddf0d9e987a
-    assemblyName: Niantic.Lightship.Maps.Samples.CustomMapLayers
-    namespaceName: Niantic.Platform.Debugging.Unity
-    className: UnityLogForwarder
-  - hash:
-      serializedVersion: 2
       Hash: 711ba963e2b245a25de71beeaeeeb658
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -2110,4 +2110,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/GameSample.unity
-  playerPath: D:/UnityProject/Lightship_sample/build/Game.apk
+  playerPath: D:/UnityProject/Lightship_sample/build/Game3.apk

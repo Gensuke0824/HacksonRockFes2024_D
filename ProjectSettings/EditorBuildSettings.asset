@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/OrbitCamera.unity
     guid: 6a755ebfca758491a981eafc58a9422b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/GameSample.unity
     guid: 1c6ca86493a854ed4a5f5ee7605f9991
   m_configObjects: {}

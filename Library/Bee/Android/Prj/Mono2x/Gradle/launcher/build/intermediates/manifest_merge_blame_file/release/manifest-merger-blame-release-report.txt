@@ -7,159 +7,159 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+9-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="35" />
-10-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 11
 12    <supports-screens
-12-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+12-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
 13        android:anyDensity="true"
-13-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+13-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
 14        android:largeScreens="true"
-14-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+14-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
 15        android:normalScreens="true"
-15-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+15-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
 16        android:smallScreens="true"
-16-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+16-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
 17        android:xlargeScreens="true" />
-17-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+17-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
 18
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
-19-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-64
+19-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-64
 20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-20-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
-20-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+20-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+20-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-81
-21-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-78
+21-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-81
+21-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-78
 22
 23    <uses-feature android:glEsVersion="0x00030000" />
-23-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
-23-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
+23-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
+23-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
 24    <uses-feature
-24-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
+24-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
 25        android:name="android.hardware.vulkan.version"
-25-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-55
+25-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-55
 26        android:required="false" />
-26-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
+26-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
 27    <uses-feature
-27-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
+27-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
 28        android:name="android.hardware.location.gps"
-28-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-53
+28-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-53
 29        android:required="false" />
-29-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
+29-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
 30    <uses-feature
-30-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
+30-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
 31        android:name="android.hardware.location"
-31-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-49
+31-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-49
 32        android:required="false" />
-32-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
+32-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
 33    <uses-feature
-33-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
+33-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
 34        android:name="android.hardware.touchscreen"
-34-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-52
+34-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-52
 35        android:required="false" />
-35-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
+35-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
 36    <uses-feature
-36-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
+36-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
 37        android:name="android.hardware.touchscreen.multitouch"
-37-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-63
+37-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-63
 38        android:required="false" />
-38-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
+38-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
 39    <uses-feature
-39-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-30:36
+39-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-30:36
 40        android:name="android.hardware.touchscreen.multitouch.distinct"
-40-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-72
+40-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-72
 41        android:required="false" />
-41-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-33
+41-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-33
 42
 43    <application
-43-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+43-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 44        android:extractNativeLibs="true"
-44-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:18-50
+44-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:18-50
 45        android:icon="@mipmap/app_icon"
-45-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+45-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
 46        android:label="@string/app_name" >
-46-->D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+46-->D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
 47        <meta-data
-47-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:33
+47-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:33
 48            android:name="unity.splash-mode"
-48-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-45
+48-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-45
 49            android:value="0" />
-49-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-30
+49-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-30
 50        <meta-data
-50-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
+50-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
 51            android:name="unity.splash-enable"
-51-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-47
+51-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-47
 52            android:value="True" />
-52-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
+52-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
 53        <meta-data
-53-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+53-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
 54            android:name="unity.launch-fullscreen"
-54-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-51
+54-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-51
 55            android:value="True" />
-55-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+55-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
 56        <meta-data
-56-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:36
+56-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:36
 57            android:name="unity.render-outside-safearea"
-57-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-57
+57-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-57
 58            android:value="True" />
-58-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-33
+58-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-33
 59        <meta-data
-59-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:50
+59-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:50
 60            android:name="notch.config"
-60-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-40
+60-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-40
 61            android:value="portrait|landscape" />
-61-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-47
+61-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-47
 62        <meta-data
-62-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-50:36
+62-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-50:36
 63            android:name="unity.auto-report-fully-drawn"
-63-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-57
+63-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-57
 64            android:value="true" />
-64-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-33
+64-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-33
 65
 66        <activity
-66-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:9-73:20
+66-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:9-73:20
 67            android:name="com.unity3d.player.UnityPlayerActivity"
-67-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-66
+67-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-66
 68            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-68-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-194
+68-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-194
 69            android:exported="true"
-69-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-36
+69-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-36
 70            android:hardwareAccelerated="false"
-70-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-48
+70-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-48
 71            android:launchMode="singleTask"
-71-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-44
+71-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-44
 72            android:resizeableActivity="false"
-72-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-47
+72-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-47
 73            android:screenOrientation="fullUser"
-73-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-49
+73-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-49
 74            android:theme="@style/UnityThemeSelector" >
-74-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-54
+74-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-54
 75            <intent-filter>
-75-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-65:29
+75-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-65:29
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-77
-76-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:27-74
+76-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-77
+76-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:27-74
 77
 78                <action android:name="android.intent.action.MAIN" />
-78-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-69
-78-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:25-66
+78-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-69
+78-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:25-66
 79            </intent-filter>
 80
 81            <meta-data
-81-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-69:40
+81-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-69:40
 82                android:name="unityplayer.UnityActivity"
-82-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-57
+82-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-57
 83                android:value="true" />
-83-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-37
+83-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-37
 84            <meta-data
-84-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-72:40
+84-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-72:40
 85                android:name="notch_support"
-85-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:17-45
+85-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:17-45
 86                android:value="true" />
-86-->[:unityLibrary] D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:17-37
+86-->[:unityLibrary] D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:17-37
 87        </activity>
 88    </application>
 89

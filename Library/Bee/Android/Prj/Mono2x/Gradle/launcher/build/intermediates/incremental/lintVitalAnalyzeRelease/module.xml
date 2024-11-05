@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="D:\UnityProject\Lightship_sample\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="D:\UnityProject\HacksonRockFes2024_D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"
